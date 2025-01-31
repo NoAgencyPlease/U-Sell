@@ -1,0 +1,7 @@
+cd path/to/your/project
+touch README.md  # (Mac/Linux)
+echo "# My Real Estate App" > README.md  # (Windows)
+code README.md
+git add README.md
+git commit -m "Added README file"
+git push origin main
